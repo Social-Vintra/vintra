@@ -10,13 +10,17 @@ export default function Home() {
         <title>Social Vintra - Home</title>
         <link rel="icon" href="/favicon.ico" />
         <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
         <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
         <meta name="descripiton" content="Guild de Albion Online" />
       </Head>
       <header className={styles.homeHeader}>
-        <Image src="/logo.svg" width="145" height="45" />
+        <Image
+          src="/logo.svg"
+          width="145"
+          height="45"
+          alt="logo tipo da social vintra"
+        />
         <div>
           <Button
             href="#"
@@ -39,7 +43,12 @@ export default function Home() {
           <h1>The new social network of developers</h1>
         </div>
         <div>
-          <Image src="/planeta.svg" width="470" height="350" />
+          <Image
+            src="/planeta.svg"
+            width="470"
+            height="350"
+            alt="imagen de um planeta azul com um anel preto"
+          />
         </div>
       </main>
       <footer className={styles.homeFooter}>
