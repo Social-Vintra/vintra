@@ -9,6 +9,7 @@
   justify-content: space-around;
   align-items: center;
   margin: 50px;
+  flex-flow: row wrap;
 }
 .homeMain div h1{
 font-size: 50px;
