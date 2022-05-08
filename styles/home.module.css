@@ -1,0 +1,23 @@
+.homeHeader{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 25px;
+}
+.homeMain{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 50px;
+}
+.homeMain div h1{
+font-size: 50px;
+text-align: center;
+}
+.homeFooter{
+  width: 100%;
+  height: 25px;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+}
