@@ -13,4 +13,25 @@ export const GlobalStyles = createGlobalStyle`
   font-family: 'Nunito', sans-serif;
   font-weight: 700;
 }
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #025496 #ffffff;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 12px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #ffffff;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #025496;
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+  }
 `;
