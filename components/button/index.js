@@ -1,6 +1,6 @@
 import styles from "../../styles/styleDefault.module.css";
 const Button = ({ text, value, background, href, className, color }) => {
-  let buttonDefault = `${className} ${styles.buttonDefault}`;
+  let buttonDefault = `${styles.buttonDefault} ${className} `;
   return (
     <button
       value={value}

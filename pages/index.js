@@ -15,12 +15,24 @@ export default function Home() {
         <meta name="descripiton" content="Guild de Albion Online" />
       </Head>
       <header className={styles.homeHeader}>
-        <Image
-          src="/logo.svg"
-          width="145"
-          height="45"
-          alt="logo tipo da social vintra"
-        />
+        <div className={styles.homeHeaderLogos}>
+          <div className={styles.homeHeaderLogo}>
+            <Image
+              src="/logo.svg"
+              width="145"
+              height="45"
+              alt="logo tipo da social vintra"
+            />
+          </div>
+          <div className={styles.homeHeaderLogotipo}>
+            <Image
+              src="/logotipo.svg"
+              width="175"
+              height="85"
+              alt="logo tipo da social vintra"
+            />
+          </div>
+        </div>
         <div>
           <Button
             href="#"
@@ -63,7 +75,7 @@ export default function Home() {
         </div>
         <div className={styles.homeFooterContent}>
           <div className={styles.homeFooterContentSobre}>
-            <div>
+            <div className={styles.homeFooterContentSobreSVG}>
               <Image
                 src="/posts.svg"
                 width="470"
