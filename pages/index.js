@@ -48,11 +48,41 @@ export default function Home() {
             width="470"
             height="350"
             alt="imagen de um planeta azul com um anel preto"
+            className={styles.homePlaneteSVG}
           />
         </div>
       </main>
       <footer className={styles.homeFooter}>
-        <h4>copyright © {new Date().getFullYear()} - Social Vintra </h4>
+        <div className={styles.homeFooterSVG}>
+          <Image
+            src="/footerVector.svg"
+            width="1440"
+            height="350"
+            alt="svg do footer"
+          />
+        </div>
+        <div className={styles.homeFooterContent}>
+          <div className={styles.homeFooterContentSobre}>
+            <div>
+              <Image
+                src="/posts.svg"
+                width="470"
+                height="350"
+                alt="imagen de um planeta azul com um anel preto"
+                className={styles.homePlaneteSVG}
+              />
+            </div>
+            <div className={styles.homeFooterContentSobreText}>
+              <h2>Sobre a Vintra</h2>
+              <p>
+                A Vintra é uma rede social online de compartilhamento de fotos e
+                vídeos entre desenvolvedores, e uma variedade de serviços de
+                redes sociais, como Facebook, Twitter, Instagram.
+              </p>
+            </div>
+          </div>
+          <h4>copyright © {new Date().getFullYear()} - Social Vintra </h4>
+        </div>
       </footer>
     </div>
   );

@@ -1,25 +1,61 @@
-.homeHeader{
+.homeHeader {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 25px;
 }
-.homeMain{
+.homeMain {
   display: flex;
   justify-content: space-around;
   align-items: center;
   margin: 50px;
   flex-flow: row wrap;
+  color: #343633;
 }
-.homeMain div h1{
-font-size: 3rem;
-text-align: center;
-max-width: 550px;
+.homeMain div h1 {
+  font-size: 3.5rem;
+  max-width: 25rem;
 }
-.homeFooter{
+.homeFooter {
   width: 100%;
   height: 25px;
   position: absolute;
   bottom: 0;
   text-align: center;
+}
+
+.homeFooterSVG {
+  width: 100%;
+  margin-top: -200px;
+  overflow: hidden;
+}
+
+.homeFooterContent {
+  background-color: #025496;
+  margin-top: -20px;
+}
+.homeFooterContent h4 {
+  font-weight: 400;
+  font-size: 1rem;
+}
+.homeFooterContentSobre {
+  margin: 0 auto;
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.homeFooterContentSobreText {
+  text-align: left;
+  font-size: 1.5rem;
+  max-width: 25rem;
+}
+
+.homeFooterContentSobreText p {
+  font-weight: 400;
+}
+.homeFooterContentSobreText h2 {
+  text-align: center;
+  font-size: 3rem;
 }
