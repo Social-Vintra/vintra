@@ -1,24 +1,17 @@
-.buttonDefault{
+.buttonDefault {
   font-size: 1em;
-  margin: .3em;
+  margin: 0.3em;
   padding: 0.25em;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, .3);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.18);
   border-radius: 13px;
   width: 119px;
   height: 46px;
   border: none;
-  position: relative;
-  transition: all .5s;
-  padding-left: 30px;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
 }
-.buttonDefault:hover{
-  padding-left: 0px;
-}
-.buttonDefault::after{
-  content: ">>";
-  visibility: hidden;
-  padding-left: 5px;
-}
-.buttonDefault:hover:after{
-  visibility: visible;
+.buttonDefault:hover {
+  opacity: 80%;
+  transition: all 0.1s ease-in-out;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
 }
