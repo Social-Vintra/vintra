@@ -26,6 +26,20 @@
   font-size: clamp(2rem, 10vw, 4vw);
   max-width: max(25rem, 35rem);
 }
+.homeMain .homePlaneteSVG{
+  animation: planetmove 5s ease-in-out infinite;
+}
+@keyframes planetmove {
+  0% {
+    transform: translateY(-5px);
+  }
+  50% {
+    transform: transform(-15px);
+  }
+  100% {
+    transform: translateY(-25px);
+  }
+}
 .homeFooter {
   width: 100%;
   max-width: 1440px;
@@ -68,10 +82,11 @@
 }
 
 .homeFooterContentSobreText p {
-  font-weight: 400;
+  font-weight: 300;
+  font-size:1.1rem;
+  letter-spacing:1px;
 }
 .homeFooterContentSobreText h2 {
-  text-align: center;
   font-size: clamp(2rem, 2vw, 4vw);
 }
 @media (max-width: 1440px) {
